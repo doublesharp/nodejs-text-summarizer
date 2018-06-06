@@ -1,33 +1,63 @@
 {
-  "name": "nodejs-text-summarizer",
-  "description": "Text summarization based on sentence extraction for nodejs",
-  "version": "2.0.3",
-  "homepage": "anpandu.com",
-  "repository": "anpandu/nodejs-text-summarizer",
+  "_from": "git+https://github.com/doublesharp/nodejs-text-summarizer.git",
+  "_id": "nodejs-text-summarizer@2.0.3",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/nodejs-text-summarizer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "nodejs-text-summarizer@git+https://github.com/doublesharp/nodejs-text-summarizer.git",
+    "name": "nodejs-text-summarizer",
+    "escapedName": "nodejs-text-summarizer",
+    "rawSpec": "git+https://github.com/doublesharp/nodejs-text-summarizer.git",
+    "saveSpec": "git+https://github.com/doublesharp/nodejs-text-summarizer.git",
+    "fetchSpec": "https://github.com/doublesharp/nodejs-text-summarizer.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/doublesharp/nodejs-text-summarizer.git#9727b1f93eeb73c19f9160f5158c89c9d2ce30ac",
+  "_spec": "nodejs-text-summarizer@git+https://github.com/doublesharp/nodejs-text-summarizer.git",
+  "_where": "/Users/justinsilver/Dropbox/Workspaces/secret-party/server",
   "author": {
     "name": "Pandu",
     "email": "anpandumail@gmail.com",
     "url": "anpandu.com"
   },
-  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/anpandu/nodejs-text-summarizer/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^4.17.10",
+    "mathjs": "^4.4.2",
+    "nalapa": "^1.11.0",
+    "natural": "^0.6.1",
+    "underscore.string": "^3.3.4"
+  },
+  "deprecated": false,
+  "description": "Text summarization based on sentence extraction for nodejs",
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  },
+  "homepage": "http://anpandu.com",
   "keywords": [
     "machine learning",
     "natural language processing",
     "summarizer"
   ],
-  "devDependencies": {
-    "chai": "*",
-    "mocha": "*"
+  "license": "MIT",
+  "main": "index.js",
+  "name": "nodejs-text-summarizer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anpandu/nodejs-text-summarizer.git"
   },
   "scripts": {
     "test": "mocha --no-timeouts --recursive"
   },
-  "dependencies": {
-    "lodash": "^4.6.1",
-    "mathjs": "^3.0.0",
-    "nalapa": "^1.9.3",
-    "natural": "^0.4.0",
-    "underscore.string": "^3.3.4"
-  },
-  "license": "MIT"
+  "version": "2.0.3"
 }
